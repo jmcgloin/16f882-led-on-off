@@ -9,5 +9,9 @@
 #include <xc.h>
 
 void main(void) {
+    
+    TRISB0 = 0;
+    RB0 = 1;
+    
     return;
 }
